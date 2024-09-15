@@ -1,0 +1,17 @@
+@media print {
+    .component-to-print {
+      width: 210mm; /* A4 width in mm */
+      height: auto;
+      page-break-after: always; /* Ensure each component starts on a new page */
+    }
+  }
+
+  /* Ensure textboxes have sufficient padding */
+  .textbox-class {
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
