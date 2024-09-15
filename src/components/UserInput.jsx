@@ -680,12 +680,13 @@ const UserInput = () => {
         </div>
         <p className="text-xs text-left font-semibold">
           Source code availabe at{" "}
-          <a className="text-blue-600" href="https://github.com/zubin-madon">
-            github.com/zubin-madon
+          <a className="text-blue-600" href="https://github.com/zubin-madon/killsheet">
+            github.com/zubin-madon/KillSheet
           </a>
           . Licensed under the MIT License - see{" "}
-          <a className="text-blue-600" href="LICENSE">
-            {" "}
+          <a className="text-blue-600" href="https://github.com/zubin-madon/KillSheet/blob/main/LICENSE"
+              target="_blank"
+              rel="noopener noreferrer">
             LICENSE file
           </a>{" "}
           for details.
