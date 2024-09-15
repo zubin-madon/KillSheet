@@ -528,7 +528,8 @@ const UserInput = () => {
       0
     );
     setTotalStringVolume(stringVolume.toFixed(4));
-  }, [rows, volume]); // Dependencies include rows to recalculate when rows change
+    console.log("striiiiiing voluuuummeeee", totalStringVolume)
+  }, [rows, volume, length, totalLength]); // Dependencies include rows to recalculate when rows change
 
   useEffect(() => {
     // Calculate total length of tubulars
@@ -1200,7 +1201,7 @@ const UserInput = () => {
               </label>
               <input
                 type="text"
-                value={totalAnnulusVolume + totalStringVolume}
+                value={(Number(totalAnnulusVolume) || 0) + (Number(totalStringVolume) || 0)}
                 readOnly
                 className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-lg"
               />
