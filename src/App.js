@@ -30,6 +30,7 @@ function App() {
       orientation: 'p',
       unit: 'mm',
       format: 'a4', // A4 size in mm
+      compressPdf: true,
       
     });
 
@@ -41,10 +42,10 @@ function App() {
 
     components.forEach((component, index) => {
       html2canvas(component.ref.current, {
-        scale: 3,
+        scale: 1.5,
         useCORS: true,
       }).then((canvas) => {
-        const imgData = canvas.toDataURL('image/png');
+        const imgData = canvas.toDataURL('image/png', 0.5);
         const imgWidth = 210; // A4 width in mm
         const imgHeight = (canvas.height * imgWidth) / canvas.width;
 
@@ -52,7 +53,7 @@ function App() {
           pdf.addPage();
         }
         
-        pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+        pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight, '', 'FAST', 0.5);
         
         if (index === components.length - 1) {
           const now = new Date();
