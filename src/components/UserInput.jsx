@@ -849,28 +849,28 @@ const UserInput = () => {
 
         {/* Pump Data */}
         <div>
-          <label className="block font-medium text-lg">Pump Data</label>
+          <label className="block font-medium text-sm md:text-lg lg:text-lg">Pump Data</label>
           <div className="flex space-x-4">
             <input
               type="text"
               value={pumpDisplacement1}
               onChange={(e) => setPumpDisplacement1(e.target.value)}
               placeholder="Pump No. 1 Displacement (bbls/stroke)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={pumpDisplacement2}
               onChange={(e) => setPumpDisplacement2(e.target.value)}
               placeholder="Pump No. 2 Displacement (bbls/stroke)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={pumpDisplacement3}
               onChange={(e) => setPumpDisplacement3(e.target.value)}
               placeholder="Pump No. 3 Displacement (bbls/stroke)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
           </div>
         </div>
@@ -884,28 +884,28 @@ const UserInput = () => {
               value={slowPumpRate1}
               onChange={(e) => setSlowPumpRate1(e.target.value)}
               placeholder="SPM1"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss1SPM1}
               onChange={(e) => setDynamicPressureLoss1SPM1(e.target.value)}
               placeholder="PUMP1 @SPM1 (psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss2SPM1}
               onChange={(e) => setDynamicPressureLoss2SPM1(e.target.value)}
               placeholder="PUMP2 @SPM1(psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss3SPM1}
               onChange={(e) => setDynamicPressureLoss3SPM1(e.target.value)}
               placeholder="PUMP3 @SPM1 (psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
           </div>
           <div className="flex space-x-4">
@@ -914,28 +914,28 @@ const UserInput = () => {
               value={slowPumpRate2}
               onChange={(e) => setSlowPumpRate2(e.target.value)}
               placeholder="SPM2"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss1SPM2}
               onChange={(e) => setDynamicPressureLoss1SPM2(e.target.value)}
               placeholder="PUMP1 @SPM2 (psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss2SPM2}
               onChange={(e) => setDynamicPressureLoss2SPM2(e.target.value)}
               placeholder="PUMP2 @SPM2(psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss3SPM2}
               onChange={(e) => setDynamicPressureLoss3SPM2(e.target.value)}
               placeholder="PUMP3 @SPM2 (psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
           </div>
           <div className="flex space-x-4">
@@ -944,28 +944,28 @@ const UserInput = () => {
               value={slowPumpRate3}
               onChange={(e) => setSlowPumpRate3(e.target.value)}
               placeholder="SPM3"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss1SPM3}
               onChange={(e) => setDynamicPressureLoss1SPM3(e.target.value)}
               placeholder="PUMP1 @SPM2 (psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss2SPM3}
               onChange={(e) => setDynamicPressureLoss2SPM3(e.target.value)}
               placeholder="PUMP2 @SPM2(psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
             <input
               type="text"
               value={dynamicPressureLoss3SPM3}
               onChange={(e) => setDynamicPressureLoss3SPM3(e.target.value)}
               placeholder="PUMP3 @SPM2 (psi)"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-lg "
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-sm md:text-lg lg:text-lg "
             />
           </div>
         </div>
@@ -1056,7 +1056,7 @@ const UserInput = () => {
                   0
                 )}
                 readOnly
-                className="p-2 border border-gray-300 rounded-md bg-gray-100 w-full sm:w-auto text-lg "
+                className="p-2 border border-gray-300 rounded-md bg-gray-100 w-full sm:w-auto text-sm md:text-lg lg:text-lg "
               />
               <label className="font-extrabold text-right">
                 <i>{stringStrokes.toFixed(0)} Strokes</i>
@@ -1113,7 +1113,7 @@ const UserInput = () => {
                 type="text"
                 value={row.openHoleLengthUsed.toFixed(2)}
                 readOnly
-                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-lg"
+                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-sm md:text-lg lg:text-lg"
               />
             </td>
             <td className="border border-black px-1 py-1">
@@ -1121,7 +1121,7 @@ const UserInput = () => {
                 type="text"
                 value={row.openHoleVolume.toFixed(2)}
                 readOnly
-                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-lg"
+                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-sm md:text-lg lg:text-lg"
               />
             </td>
             <td className="border border-black px-1 py-1">
@@ -1129,7 +1129,7 @@ const UserInput = () => {
                 type="text"
                 value={row.casingLengthUsed.toFixed(2)}
                 readOnly
-                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-lg"
+                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-sm md:text-lg lg:text-lg"
               />
             </td>
             <td className="border border-black px-1 py-1">
@@ -1137,7 +1137,7 @@ const UserInput = () => {
                 type="text"
                 value={row.casingVolume.toFixed(2)}
                 readOnly
-                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-lg"
+                className="w-full max-w-[80px] text-center bg-gray-300 border-none text-sm md:text-lg lg:text-lg"
               />
             </td>
           </tr>
@@ -1159,7 +1159,7 @@ const UserInput = () => {
                 type="text"
                 value={totalOpenHoleVolume}
                 readOnly
-                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-lg"
+                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-sm md:text-lg lg:text-lg"
               />
               <label className="mt-1 font-extrabold text-right">
                 <i>{openHoleStrokes.toFixed(0)} Strokes</i>
@@ -1174,7 +1174,7 @@ const UserInput = () => {
                 type="text"
                 value={totalCasingVolume}
                 readOnly
-                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-lg"
+                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-sm md:text-lg lg:text-lg"
               />
               <label className="mt-1 font-extrabold text-right">
                 <i>{casingStrokes.toFixed(0)} Strokes</i>
@@ -1189,7 +1189,7 @@ const UserInput = () => {
                 type="text"
                 value={totalAnnulusVolume}
                 readOnly
-                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-lg"
+                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-sm md:text-lg lg:text-lg"
               />
               <label className="mt-1 font-extrabold text-right">
                 <i>{annulusStrokes.toFixed(0)} Strokes</i>
@@ -1203,7 +1203,7 @@ const UserInput = () => {
                 type="text"
                 value={(Number(totalAnnulusVolume) || 0) + (Number(totalStringVolume) || 0)}
                 readOnly
-                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-lg"
+                className="mt-1 p-2 border border-gray-300 rounded-md bg-gray-200 w-full sm:w-32 text-right text-sm md:text-sm lg:text-lg "
               />
               <label className="mt-1 font-extrabold text-right">
                 <i>{(annulusStrokes + stringStrokes).toFixed(0)} Strokes</i>
