@@ -731,7 +731,7 @@ const UserInput = () => {
             className="text-4xl text-gray-700 font-bold "
             style={{ margin: 0 }}
           >
-            RIG 702
+            RIG 143
           </h1>
           <p className="font-bold text-gray-700" style={{ margin: 0 }}>
             Date: {new Date().toLocaleDateString()}
