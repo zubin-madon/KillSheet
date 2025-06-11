@@ -182,7 +182,7 @@ const tubularData = {
     driftIn: 2.87,
     jtOdIn: 11,
   },
-  "10\" DC ": {
+  "10\" DC r143": {
     pipeSize: 10,
     lbFt: 243,
     rng: 2,
@@ -197,7 +197,7 @@ const tubularData = {
     driftIn: 2.87,
     jtOdIn: 10,
   },
-  "8-1/4\" DC ": {
+  "8-1/4\" DC r143": {
     pipeSize: 8.25,
     lbFt: 160,
     rng: 2,
@@ -212,7 +212,7 @@ const tubularData = {
     driftIn: 2.75,
     jtOdIn: 8.25,
   },
-  "6-1/2\" DC ": {
+  "6-1/2\" DC r143": {
     pipeSize: 6.5,
     lbFt: 91.69,
     rng: 2,
@@ -227,7 +227,7 @@ const tubularData = {
     driftIn: 2.6,
     jtOdIn: 6.5,
   },
-  "5-1/2\" DP ": {
+  "5-1/2\" DP r143": {
     pipeSize: 5.5,
     lbFt: 27.95,
     rng: 3,
@@ -242,7 +242,7 @@ const tubularData = {
     driftIn: 4.25,
     jtOdIn: 7
   },
-  "6-5/8\" HW ": {
+  "6-5/8\" HW r143": {
     pipeSize: 6.625,
     lbFt: 76.12,
     rng: 2,
@@ -257,7 +257,7 @@ const tubularData = {
     driftIn: 4,
     jtOdIn: 4.5
   },
-  "5-1/2\" HW ": {
+  "5-1/2\" HW r143": {
     pipeSize: 5.5,
     lbFt: 45.42,
     rng: 2,
