@@ -215,7 +215,7 @@ const WellboreSchematic = () => {
       {/* Header Section */}
       <div className="border-2 border-black p-2 mb-4">
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2px' }}>
-          <h1 className="text-4xl text-gray-700 font-bold" style={{ margin: 0 }}>RIG 702</h1>
+          <h1 className="text-4xl text-gray-700 font-bold" style={{ margin: 0 }}>RIG 143</h1>
           <p className="font-bold text-gray-700" style={{ margin: 0 }}>Date: {new Date().toLocaleDateString()}</p>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2px' }}>
